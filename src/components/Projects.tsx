@@ -4,6 +4,14 @@ export default function Projects() {
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
 
   const projects = [
+
+    {
+  type: 'Fachada Prédio Alto Padrão',
+  description: 'Iluminação de fachada prédio alto padrão, infraestrutura e instalação completa',
+  specs: 'Automação · Iluminação · Segurança',
+  video: 'https://res.cloudinary.com/downfwgxg/video/upload/f_auto,q_auto,vc_auto,w_900/IMG_7743_otqy5q',
+},
+    
     {
   type: 'AP em Edíficio Comercial',
   description:
